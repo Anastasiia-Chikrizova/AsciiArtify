@@ -69,6 +69,10 @@
 ## Демонстрація: k3d + Hello World
 Нижче приклад швидкого розгортання тестового застосунку у k3d:
 
+## Demo 
+
+https://github.com/k3d-io/k3d-demo
+
 ```bash
 # Встановлення k3d
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
@@ -85,3 +89,5 @@ kubectl expose deployment hello --type=NodePort --port=80
 
 # Отримати URL
 kubectl get svc hello
+
+
